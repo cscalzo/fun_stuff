@@ -1,0 +1,55 @@
+.quick_nav_menu{
+	background: #ffffff;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	position: fixed;
+	top:0px;
+}
+	ul.scrollto_menu {
+		margin: 0px;
+		padding:0px;
+		display: block;
+		position: relative;
+	}
+		ul.scrollto_menu li {
+			margin: 0px;
+			list-style-type: none;
+			display: inline-block;
+			padding: 0px;
+		}
+		ul.scrollto_menu li a:link,
+		ul.scrollto_menu li a:visited {
+			margin: 0px;
+			font-weight: bold;
+			display: block;
+			padding: 3px 6px;
+			background: #ffffff;
+		}
+		ul.scrollto_menu li a:hover,
+		ul.scrollto_menu li a:active,
+		ul.scrollto_menu li a:focus {
+			margin: 0px;
+			display: inline-block;
+			padding: 3px 6px;
+			background: #dddddd;
+			text-decoration: none;
+		}
+		ul.scrollto_menu li.active a:link,
+		ul.scrollto_menu li.active a:visited  {
+			background: #ef6b1e;
+		}
+		ul.scrollto_menu li.active a:link,
+		ul.scrollto_menu li.active a:visited  {
+			color: #ffffff;
+
+		}
+	.scroll_marker { 
+		font-weight: bold;
+		color: #666666;
+		padding: 3px;
+		margin: 5px 0px;
+		border-bottom: solid 1px #afafaf;
+		list-style-type: none;
+	}
